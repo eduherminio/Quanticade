@@ -650,7 +650,7 @@ void uci_loop(position_t *pos, thread_t *threads, int argc, char *argv[]) {
     else if (strncmp(input, "uci", 3) == 0) {
       // print engine info
       printf("id name Quanticade %s\n", version);
-      printf("id author DarkNeutrino\n\n");
+      printf("id author Maksim Korzh\n\n");
       printf("option name Hash type spin default %d min 4 max %d\n",
              default_hash_size, max_hash);
       printf("option name Threads type spin default %d min %d max %d\n", 1, 1,
